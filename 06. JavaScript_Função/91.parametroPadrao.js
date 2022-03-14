@@ -27,7 +27,7 @@ console.log(soma2(1, 2, 3));
 console.log(soma2(0, 0, 0));
 console.log(`---------------------`);
 
-// valor padrão do ES2015
+// valor padrão do ES2015 - Forma correta desde 2015
 function soma3(a = 1, b = 1, c = 1) {
     return a + b + c
 }

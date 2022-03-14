@@ -4,6 +4,7 @@ const soma = function (x, y) {
     return x + y
 }
 
+// CASO não seja passado os valores de a e b a OPERAÇÂO recebe o valor de SOMA (função da linha 3 e 4)
 const imprimirResultado = function (a, b, operacao = soma) {
     console.log(operacao(a, b));
 }

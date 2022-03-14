@@ -3,7 +3,7 @@ let dobro = function (a) {
     return 2 * a
 }
 
-// função Arrow
+// Reescrevendo a Função acima.. só que no modo ArrowFunction
 dobro = (a) => {
     return 2 * a
 }
